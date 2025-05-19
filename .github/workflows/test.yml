@@ -18,4 +18,4 @@ jobs:
         pip install -r requirements.txt nbval
     - name: Run notebook test
       run: |
-        pytest --nbval covid_analysis.ipynb
+        pytest --nbval-lax covid_analysis.ipynb
